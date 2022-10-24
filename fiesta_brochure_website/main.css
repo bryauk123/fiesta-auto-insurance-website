@@ -1,0 +1,53 @@
+#fiesta-title{
+    color: antiquewhite;
+    font-size: 48px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px #ff0000;
+    position: static;
+  }
+#lolly-pic{
+  height: auto;
+  max-width: 40%;
+}
+#leslie-pic{
+  height: 50%;
+  max-width: 40%;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background-color: #d3330a;
+  }
+
+/*tab link styling*/
+    .tablink {
+    background-color: rgb(225, 102, 102);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 19px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: rgb(240, 216, 216);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+
+
+#Who {background-color: #d3330a;
+background-size: cover;}
+#Contact {background-color: #2DB3C7;}
+#GetAQuote {background-color: blue;}
